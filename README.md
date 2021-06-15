@@ -4,19 +4,19 @@
 
 After cloning this template, one should rename a few files and edit some other files.
 
-In particual, one should decide the presentation file name, and rename files accordingly.
+In particular, one should decide the presentation file name, and rename files accordingly.
 
 
 Our conventions is as follows.
 Given:
-- the `i`-th author's surname initial `Ni` 
+- the `i`-th author's surname initial `Ni`
 - the acronym `VENUE` of the venue where the presentation will be held
 - the current year `20XX`
-    
+
 The presentation file name should then be:
 
 > `N1N2N3N4-VENUE-20XX-talk`
-    
+
 Accordingly, one should now:
 1. rename file `abcd-venue-20XX-talk.bib` into `N1N2N3N4-VENUE-20XX-talk.bib`
 2. rename file `abcd-venue-20XX-talk.sty` into `N1N2N3N4-VENUE-20XX-talk.sty`
