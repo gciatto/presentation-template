@@ -25,3 +25,4 @@ Accordingly, one should now:
 5. replace line 249 of the `.tex` file from `\bibliography{abcd-venue-20XX-talk}` to `\bibliography{N1N2N3N4-VENUE-20XX-talk}`
 6. replace line 16 of the `.github/workflows/compile.yml` file from `LATEX_ROOT: abcd-venue-20XX-talk` to `LATEX_ROOT: N1N2N3N4-VENUE-20XX-talk`
     + take care of _not_ changing any indentation in the `.yml` file
+7. replace line 1 of the `.gitignore` file from `abcd-venue-20XX-talk.pdf` to `N1N2N3N4-VENUE-20XX-talk.pdf`
