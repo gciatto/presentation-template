@@ -1,11 +1,18 @@
 % !TeX spellcheck = en_GB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\documentclass[handout]{beamer}\mode<handout>{\usetheme{default}}
 %
-\documentclass[presentation]{beamer}
-\mode<presentation>{\usetheme{AMSCesenaPurpleAndGold}}
-\setbeamertemplate{bibliography item}{\insertbiblabel}
+\documentclass[presentation]{beamer}\mode<presentation>{\usetheme{AMSBolognaFC}}
+%\documentclass[handout]{beamer}\mode<handout>{\usetheme{AMSBolognaFC}}
+% \setbeamertemplate{bibliography item}{\insertbiblabel}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
+% version
+\newcommand{\versionmajor}{0}
+\newcommand{\versionminor}{3}
+\newcommand{\versionpatch}{0}
+\newcommand{\version}{\versionmajor.\versionminor.\versionpatch}
 %
 \usepackage{abcd-venue-20XX-talk}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -245,7 +252,8 @@
 % \begin{frame}[c]\frametitle{\refname}
 	\footnotesize
 %	\scriptsize
-    \bibliographystyle{plain}
+    \bibliographystyle{apalike-AMS}
+    % \bibliographystyle{plain}
 	\bibliography{abcd-venue-20XX-talk}
 \end{frame}
 %\\\\\\\\\\\\\\\\\\\\\
