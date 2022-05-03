@@ -2,10 +2,13 @@
 
 ## TODO
 
-After cloning this template, one should rename a few files and edit some other files.
+After cloning this template with
+```bash
+git clone --recursive "this repo URL here" ## the --recursive options is VERY important
+```
+one should rename a few files and edit some other files.
 
 In particular, one should decide the presentation file name, and rename files accordingly.
-
 
 Our conventions is as follows.
 Given:
